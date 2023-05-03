@@ -1,4 +1,6 @@
-const Main = () => {
+import Links from "../components/common/Links";
+
+const Home = () => {
     return(
         <div className="body">
         <div className="intro">
@@ -11,8 +13,9 @@ const Main = () => {
             <p>I enjoy photography, books, going to Braves baseball games <span role="img" aria-label="emoji">⚾️</span>, and cooking.</p>
             <p>And I've got a cat named Luna<span role="img" aria-label="emoji">🐈</span></p>
         </div>
+            <Links />
         </div>
     );
 };
 
-export default Main;
+export default Home;

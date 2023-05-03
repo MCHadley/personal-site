@@ -2,17 +2,16 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from './pages/Home.js';
+import Contact from './pages/Contact.js';
 import reportWebVitals from './reportWebVitals';
 import './App.css';
 
-export default function App(){
-  return(
+export default function App() {
+  return (
     <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home />} />
-      {/* <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} /> */}
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </BrowserRouter>
   )
 }

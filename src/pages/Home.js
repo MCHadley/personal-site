@@ -1,4 +1,3 @@
-import Links from "../components/common/Links";
 import Footer from "../components/common/Footer";
 
 const Home = () => {
